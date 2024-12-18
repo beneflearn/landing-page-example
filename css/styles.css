@@ -11334,42 +11334,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.custom-icon .fa-circle {
-  color: #009dffde;
-}
 
-.silaby-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%; /* Membuat item card mengisi penuh */
-}
-
-.silaby-caption {
-  min-height: 100px; /* Tinggi minimum untuk caption agar seimbang */
-  text-align: center;
-}
-
-.silaby-item img {
-  max-height: 200px; /* Menentukan tinggi maksimum gambar */
-  object-fit: cover; /* Memastikan gambar tetap proporsional */
-  width: 100%; /* Pastikan gambar memenuhi lebar card */
-}
-
-.timeline-image {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 0 auto 20px;
-  border-radius: 50%;
-  overflow: hidden; /* Pastikan elemen gambar terpotong mengikuti bentuk lingkaran */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-}
-
-.timeline-image .img-cover {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
