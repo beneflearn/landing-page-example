@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Pengecekkan apakah semua input sudah diisi dengan benar, baru dilanjutkan dengan fetch api
         if (validateForm()) {
-            const webhookURL = 'https://discord.com/api/webhooks/1318394111128244244/bW372YXm8mfzjWgW6j3Didf687BbiXNHlTyxKam8poWCZDQj_kSl-P2sA6svVS3BrtYa'; // Ganti dengan URL webhook Anda
+            const webhookURL = 'https://discord.com/api/webhooks/1318479486647406624/VdxysN2cM8qQWnEPlWPWeSuWZVpIL9wHpU2Hsm3jyEVpgfeymuAsxN5LHzsefOQ6NK34'; // Ganti dengan URL webhook Anda
     
             // mengganti format nomor wa, apabila karater pertamanya '0' maka diganti dengan '62'
             if (phone[0] === '0') {
